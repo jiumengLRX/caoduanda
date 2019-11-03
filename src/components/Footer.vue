@@ -19,7 +19,7 @@ export default {
       foot: [
         { title: "木点首页", img: "zhuye" ,url:"home"},
         { title: "商品分类", img: "leimupinleifenleileibie",url:"fenlei" },
-        { title: "居家分享", img: "shu",url:"fenx" },
+        { title: "居家分享", img: "shu",url:"fenx/book" },
         { title: "购物车", img: "gouwuche",url:"cart" },
         { title: "我的工坊", img:"wode",url:"my" }
       ]
