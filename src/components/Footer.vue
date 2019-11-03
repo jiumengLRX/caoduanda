@@ -34,8 +34,11 @@ export default {
     height: 60px;
     display: flex;
     box-sizing: border-box;
-    border: 1px solid;
-    position: relative;
+    /* border: 1px solid; */
+    background: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
 }
 .foot>div{
     width: 20%;

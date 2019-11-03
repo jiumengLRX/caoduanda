@@ -2,9 +2,10 @@
   <div>
     <Header>
       <p>我的分类</p>
+      <p>aa</p>
       <Search />
     </Header>
-    <div>购物车</div>
+    <div><Content></Content></div>
     <Footer />
   </div>
 </template>
@@ -13,12 +14,14 @@
 import Search from "../../components/search";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import Content from './Content'
 export default {
   name: "fenlei",
   components: {
     Footer,
     Header,
-    Search
+    Search,
+    Content
   }
 };
 </script>

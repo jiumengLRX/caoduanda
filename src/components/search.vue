@@ -1,12 +1,22 @@
 <template>
     <div class="seac">
-        <input type="text">
+        <input type="text" @click="seach">
     </div>
 </template>
 
 <script>
     export default {
-        name:"search"
+        name:"search",
+        data () {
+            return {
+                
+            }
+        },
+        methods: {
+            seach(){
+                this.$router.push("/seach")
+            }
+        }
     }
 </script>
 

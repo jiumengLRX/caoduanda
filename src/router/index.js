@@ -4,6 +4,7 @@ const Home = () => import("../page/home/home.vue");
 const Fenl = () => import("../page/fenlei/fenlei");
 const Fenx = () => import("../page/fenx/fenxiang");
 const Cart = () => import("../page/cart/cart");
+const Seach=()=>import("../page/seach/seach")
 import My from '../page/my/my';
 
 Vue.use(VueRouter)
@@ -33,7 +34,10 @@ const routes = [
     path: "/my",
     component: My
   },
-
+  {
+    path:"/seach",
+    component:Seach
+  }
 ]
 
 const router = new VueRouter({
