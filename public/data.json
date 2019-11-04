@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "特拉斯木房柜",
+    "price": 2200.0,
+    "num": 1,
+    "img": "6.png",
+    "flag": false
+  },
+  {
+    "id": 2,
+    "name": "浴室定制预约《美式古典》",
+    "price": 1.0,
+    "num": 1,
+    "img": "2.png",
+    "flag": false
+  },
+  {
+    "id": 3,
+    "name": "木点工坊原木橱柜定制",
+    "price": 220.0,
+    "num": 1,
+    "img": "3.png",
+    "flag": false
+  },
+  {
+    "id": 4,
+    "name": "厨具定制预约",
+    "price": 2200.0,
+    "num": 1,
+    "img": "4.png",
+    "flag": false
+  },
+  {
+    "id": 5,
+    "name": "客厅定制预约",
+    "price": 2200.0,
+    "num": 1,
+    "img": "5.png",
+    "flag": false
+  },
+  {
+    "id": 5,
+    "name": "客厅定制预约",
+    "price": 2200.0,
+    "num": 1,
+    "img": "5.png",
+    "flag": false
+  },
+  {
+    "id": 5,
+    "name": "客厅定制预约",
+    "price": 2200.0,
+    "num": 1,
+    "img": "5.png",
+    "flag": false
+  },
+  {
+    "id": 5,
+    "name": "客厅定制预约",
+    "price": 2200.0,
+    "num": 1,
+    "img": "5.png",
+    "flag": false
+  }
+]

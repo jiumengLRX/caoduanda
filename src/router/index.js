@@ -5,17 +5,19 @@ const Fenl = () => import("../page/fenlei/fenlei");
 const Fenx = () => import("../page/fenx/fenxiang");
 const Cart = () => import("../page/cart/cart");
 import My from '../page/my/my';
-
+import Cart1 from "@/page/cart/Cart1";
+import Jiesuan from "@/page/cart/Jiesuan";
+import Address from "@/page/cart/Address";
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: "/",
     redirect: "/home"
   },
   {
-    path:"/home",
-    component:Home
+    path: "/home",
+    component: Home
   },
   {
     path: "/fenlei",
@@ -33,8 +35,19 @@ const routes = [
     path: "/my",
     component: My
   },
-
-]
+  {
+    path: "/Cart1",
+    component: Cart1
+  },
+  {
+    path: "/Jiesuan",
+    component: Jiesuan
+  },
+  {
+    path: "/Address",
+    component: Address
+  }
+];
 
 const router = new VueRouter({
   mode: 'history',
